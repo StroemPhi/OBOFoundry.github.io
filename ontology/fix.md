@@ -5,7 +5,7 @@ in_foundry: false
 contact:
   email:
   label: chEBI
-description: "An ontology of physico-chemical methods and properties."
+description: "An ontology of physico-chemical methods and properties. NOTE: [CHMO](http://www.obofoundry.org/ontology/chmo.html) uses 'hasDbXref' annotations on the textual definitions of those terms that are also defined in FIX"
 build:
   source_url: ftp://ftp.ebi.ac.uk/pub/databases/chebi/ontology/fix.obo
   method: obo2owl
